@@ -11,3 +11,7 @@ Unit and UI Testing - Test Persistence layer, test different environments, test 
 Environment Configurations - Debug and staging should not successfully book appointments but rather mock the success and failure. All time frames will be available on dev environments, while staging and production will show real time frames the GitHub User is available
 
 Additional Implementations - Show a collectionview of cards where you can see the past and future events the GitHub User has attended/will attend.
+
+Fail States - App will react accordingly to fail states on API fetching
+
+Pagination - The app currently only shows the default limit of Github users (30). Prefetching will be added to the tableview to enable pagination
